@@ -2,7 +2,7 @@ trigger:
 - '*'
 
 pool:
-  name: 'MyAgentPool'
+  name: 'Default'
   demands:
   - npm
 
@@ -58,4 +58,4 @@ steps:
   displayName: 'Publish Artifact: drop'
   condition: succeeded()
 
-  
+
